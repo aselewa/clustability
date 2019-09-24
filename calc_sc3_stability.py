@@ -1,6 +1,11 @@
 import sys
 import numpy as np
 
+'''
+Implementation of the SC3 cluster stability metric
+Input is a N x k matrix of cluster labels for N samples, across k resolutions (# of clusters)
+'''
+
 class clustability(object):
     '''
     Class representing cluster stability calculations
@@ -66,7 +71,3 @@ class clustability(object):
         return shareMat
         
 
-
-
-
-            
